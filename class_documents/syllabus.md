@@ -3,9 +3,11 @@
 ## Course Description
 Computer Vision is the scientific field that deals with programming computers to "see" the world. From its inception as a research discipline in the early 1960s, the goal of computer vision was to prop up the development of artificial intelligence, the idea being that in order for a computer to act on the world, it must first understand it. As a species that privileges vision above all our other senses, it seemed most logical that making a computer "see" was the best path towards teaching a computer to "know."
 
-In this course, we explore the field of computer vision as both a set of artistic tools, and as a subject of critical inquiry. 
+In this course, we engage the field of computer vision as both a fertile territory for artistic experimentation, and as a complex subject for critical interrogation. Through technical demonstrations and project-based experimentation, this course will introduce a variety of tools for creating interactive art and machine learning-based generative imagery. Throughout the semester, we will confront the ethical implications of computer vision technologies both as artists creating with these tools, and as citizens in a world where these technologies are ubiquitous, powerful, and often harmful to those who are most vulnerable.
 
-with the goal of allowing a computer to understand the world around it. Of the five basic human senses, vision is the most privileged sense, so it is no coincidence that early research into artificial intelligence saw the ability to allow a robot to "see" and therefore "understand" its environment was understood to be a key prerequisite for creating a robot with artificial intelligence. 
+This course will teach both "traditional" and machine learning-based approaches to computer vision. At first, we will focus more on writing code to manipulate images, video and live webcam feed. Then, the class will shift its focus away from code and towards working with data, though code will (likely) always enter the equation in some way.
+
+By the end of this course, you should have the capability to continue exploring computer vision tools independently, as well as the critical understading to work with these tools responsibly, and effectively.
 
 ## Course Content
 
