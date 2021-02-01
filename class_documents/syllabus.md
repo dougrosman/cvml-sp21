@@ -19,6 +19,91 @@ By the end of this course, you should have the capability to continue exploring 
 * [Working with Faces: A journey into the art of face analysis and classification.](https://kcimc.medium.com/working-with-faces-e63a86391a93)
 
 
-### Week 01 - 02/02/2021
-#### Morning
-#### Evening
+### Week 01 - Welcome - 02/02/2021
+Intros
+syllabus
+overview of computer vision
+tool setup
+Teachable Machine + Zoom annotations workshop
+
+### Week 02 - Welcome - 02/09/2021
+Creative coding fundamentals
+Pixel manipulation: images
+Pixel manipulation: webcam
+
+
+### Week 03 - Welcome - 02/16/2021
+Advanced webcam manipulation
+Assignment: text rain
+
+### Week 04 - Welcome - 02/23/2021
+Kinect part 1
+
+### Week 05 - Welcome - 03/02/2021
+Begin Machine learning unit
+Convnet
+Teachable Machine in-depth
+ml5.js
+PCA, T-SNE, Compiling a data set
+Runway
+
+### Week 06 - Welcome - 03/09/2021
+Introducing GANs
+Stylegan2-ada
+pix2pix
+Google Colab, Paperspace, remote accessing machines
+Terminal, finding code on GitHub
+Create your own data set
+
+### Week 07 - Welcome - 03/16/2021
+Scrape your own data set
+
+### Week 08 - Welcome - 03/23/2021
+Working with faces: face analysis, alignment, averaging
+
+### Week 09 - Welcome - 03/30/2021
+Face tracking vs. face recognition
+
+### Week 10 - Welcome - 04/06/2021
+Traversing the latent space
+
+### Week 11 - Welcome - 04/13/2021
+Building a neural network from scratch
+
+### Week 12 - Welcome - 04/20/2021
+Other applications: music/audio generation
+language models
+reinforcement learning
+Work on final projects
+
+### Week 13 - Welcome - 04/27/2021
+Work on final projects
+
+### Week 14 - Welcome - 05/04/2021
+Present final projects, work on website gallery
+
+### Week 15 - Welcome - 05/11/2021
+Re-present final projects in website gallery.
+
+
+## Things to cover
+* hosting models on runway online
+* google colab
+* paperspace
+* flickr scraper
+* tsne
+* face alignment, averaging
+* facial landmarks
+
+
+## List of exercises
+1. Zoom Annotations with Teachable Machine
+2. Rozin Mirror
+3. Text rain
+4. something with a kinect
+5. something with teachable machine: posenet
+6. create your own data set (images on on your own computer, create your own images, take your own photos, etc.)
+7. Scrape your own data set (find data from the web, active vs. negative approach (aka, find images one by one, or download a bunch at once and prune later))
+8. Collective data set (assign people to come up with a data set, submit your idea anonymously, then people vote.)
+9. GAN topic: temporal subversion
+10. pix2pix: low complexity to high complexity.
