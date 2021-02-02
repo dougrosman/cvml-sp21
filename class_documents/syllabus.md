@@ -98,7 +98,7 @@ At the end of the semester, we will present all the work from class in an online
 * 3:15 - 5:30 : Open Studio (Homework, Projects, Discussion, etc).
 
 
-### Week 01 - Welcome - 02/02/2021
+### Week 01 - 02/02/2021
 * Introductions
 * Syllabus
 * Intro to computer vision
@@ -106,23 +106,23 @@ At the end of the semester, we will present all the work from class in an online
 * Teachable Machine + Zoom annotations workshop
 
 
-### Week 02 - Welcome - 02/09/2021
+### Week 02 - 02/09/2021
 * Creative coding fundamentals I
 * Pixel manipulation: images
 * Pixel manipulation: webcam
 
 
-### Week 03 - Welcome - 02/16/2021
+### Week 03 - 02/16/2021
 * Creative coding fundamentals II
 * Advanced webcam manipulation
 * Assignment: text rain
 
 
-### Week 04 - Welcome - 02/23/2021
+### Week 04 - 02/23/2021
 * RGB + D with a Kinect, depth data and skeleton tracking
 
 
-### Week 05 - Welcome - 03/02/2021
+### Week 05 - 03/02/2021
 * Intro to Machine Learning
 * Classification, Differentiation and Object Detection
 * Teachable Machine (revisited)
@@ -130,7 +130,7 @@ At the end of the semester, we will present all the work from class in an online
 * PCA, T-SNE, Compiling a data set
 * Runway.ml part 1
 
-### Week 06 - Welcome - 03/09/2021
+### Week 06 - 03/09/2021
 * Introducing GANs
 * Stylegan2-ada
 * pix2pix
@@ -139,38 +139,36 @@ At the end of the semester, we will present all the work from class in an online
 * Create your own data set
 * Runway.ml part 2
 
-### Week 07 - Welcome - 03/16/2021
+### Week 07 - 03/16/2021
 * GANs continued
 
-### Week 08 - Welcome - 03/23/2021
+### Week 08 - 03/23/2021
 * Working with faces: face analysis, alignment, averaging
 * Face tracking vs. face recognition
 
-### Week 09 - Welcome - 03/30/2021
+### Week 09 - 03/30/2021
 * Language models, text generation
 
-### Week 10 - Welcome - 04/06/2021
+### Week 10 - 04/06/2021
 * Traversing the latent space: advanced coding techniques to manipulate GANs
 
-### Week 11 - Welcome - 04/13/2021
+### Week 11 - 04/13/2021
 * Building a neural network from scratch
 * Begin working on final projects
 
-### Week 12 - Welcome - 04/20/2021
+### Week 12 - 04/20/2021
 * Other applications: music/audio generation
 * reinforcement learning
 * Work on final projects
 
-### Week 13 - Welcome - 04/27/2021
-* Work on final projects
-* Miscellaneous workshops
+### Week 13 - 04/27/2021
+* Final Project Presentations #1 (near-finished version)
 
-### Week 14 - Welcome - 05/04/2021
-* Present final projects
-* work on website gallery page
+### Week 14 - 05/04/2021
+* Critique, no class (will hold office hours, though)
 
-### Week 15 - Welcome - 05/11/2021
-* Re-present final projects in website gallery for second round of feedback
+### Week 15 - 05/11/2021
+* Final Project Presentations #2 (finished, in website gallery)
 
 
 ## Accommodations for Students with Disabilities
