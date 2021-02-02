@@ -13,6 +13,12 @@ Doug Rosman | drosman@saic.edu | [dougrosman.com](https://dougrosman.com)
 #### **Location**
 Fully online | Zoom Link: https://saic-edu.zoom.us/my/dougrosman?pwd=MXFXZDJ3NlBHMFBpMHZQUUF5Ull2UT09
 
+#### **Office Hours**
+Office hours will be scheduled each week. The day will announced at the beginning of each week (the day will likely alternate between Fridays and Saturdays)
+
+#### **Contacting me**
+The best way to contact me is through the class Slack Channel (more on that below). You can also email me at drosman@saic.edu, or send me a message through Canvas
+
 #### **Course Content**
 * Class GitHub Repository: [https://github.com/dougrosman/cvml-sp21](https://github.com/dougrosman/cvml-sp21)
 * Class website: [https://dougrosman.github.io/cvml-sp21/](https://dougrosman.github.io/cvml-sp21/)
@@ -32,6 +38,17 @@ In this course, we engage the field of computer vision as both a fertile territo
 This course will teach both "traditional" and machine learning-based approaches to computer vision. At first, we will focus more on writing code to manipulate images, video and live webcam feed. Then, the class will shift its focus away from code and towards working with data, though code will (likely) always enter the equation in some way.
 
 By the end of this course, you should have the capability to continue exploring computer vision tools independently, as well as the critical understading to work with these tools responsibly, and effectively.
+
+## Course Values
+*Adapted from Chris Baker*<br>
+**Sharing / Open**
+  * Documentation
+  * [DIWO](http://furtherfield.org/projects/diwo-do-it-others-resource) (Do It With Others)
+  * Publish
+  * [Cult of Done Manifesto](http://www.brepettis.com/blog/2009/3/3/the-cult-of-done-manifesto.html)
+
+## Grading Procedure/Criteria
+* Grades are credit / no-credit for this course. To pass this class, you must attend the final critique, and create/present a final project
 
 ## Course Content
 
@@ -63,6 +80,19 @@ By the end of this course, you should have the capability to continue exploring 
 * [ML4A - Machine Learning for Artists (Gene Kogan et al)](https://ml4a.github.io/)
 * [The Coding Train (Dan Shiffman's YouTube Channel)](https://www.youtube.com/user/shiffman)
 * [Artificial Images (Derrick Schultz' YouTube Channel)](https://www.youtube.com/user/bustbright)
+
+## Weekly Schedule
+
+#### Typical Class Structure
+
+* 9:30 - 9:45 : Look at/share art and artists, catch up on the week’s CV/ML headlines.
+* 9:45 - 10:30 : Lecture Part 1 (theory/art/background/sociopolitical context)
+* 10:30 - 10:45 : Break
+* 10:45 - 12:30 : Introduce technical demo for the day
+* 12:30 - 2:00 : Lunch
+* 2:00 - 3:00 : Hands-on Workshop/technical demo continued.
+* 3:30 - 3:15 : Break
+* 3:15 - 5:30 : Open Studio (Homework, Projects, Discussion, etc).
 
 
 ### Week 01 - Welcome - 02/02/2021
