@@ -11,7 +11,7 @@ Doug Rosman | drosman@saic.edu | [dougrosman.com](https://dougrosman.com)
  Blake Fall-Conroy | [blakefallconroy.com](https://blakefallconroy.com/)
 
 #### **Location**
-Fully online | Zoom Link: https://saic-edu.zoom.us/my/dougrosman?pwd=MXFXZDJ3NlBHMFBpMHZQUUF5Ull2UT09
+Fully online | Zoom Link: [https://saic-edu.zoom.us/my/dougrosman?pwd=MXFXZDJ3NlBHMFBpMHZQUUF5Ull2UT09](https://saic-edu.zoom.us/my/dougrosman?pwd=MXFXZDJ3NlBHMFBpMHZQUUF5Ull2UT09)
 
 #### **Office Hours**
 Office hours will be scheduled each week. The day will announced at the beginning of each week (the day will likely alternate between Fridays and Saturdays)
@@ -38,6 +38,9 @@ In this course, we engage the field of computer vision as both a fertile territo
 This course will teach both "traditional" and machine learning-based approaches to computer vision. At first, we will focus more on writing code to manipulate images, video and live webcam feed. Then, the class will shift its focus away from code and towards working with data, though code will (likely) always enter the equation in some way.
 
 By the end of this course, you should have the capability to continue exploring computer vision tools independently, as well as the critical understading to work with these tools responsibly, and effectively.
+
+## End of Semester Online Exhibition
+At the end of the semester, we will present all the work from class in an online gallery format. Since much of the work we'll be doing is web-based, having an online exhibition won't require much extra work beyond what it takes to create a presentable work on the web. On the final day of class, the website gallery should be ready to launch with your "final" versions of your work.
 
 ## Course Values
 *Adapted from Chris Baker*<br>
@@ -214,6 +217,5 @@ We understand the classroom as a space for practicing freedom; where one may cha
 To do so we must acknowledge and embrace the different identities and backgrounds we inhabit and recognize the many valid and varying experiences that shape the way we inhabit and express ourselves within this classroom. This means that we will use correct pronouns, respect self-identifications, and be mindful of each individual's needs. Each student is expected to practice agency in defining their own learning objectives with this course material and contribute to building a supportive environment for others to define and achieve their own learning objectives. Students are also expected to practice self-care- understanding that each of our learning happens differently as the circumstances of our lives fluctuate. Be patient with yourself and be mindful of what your health and body need in an online learning environment to best achieve your goals. Disagreement is encouraged and supported, however our differences affect our conceptualization and experience of reality, and it is extremely important to remember that certain gender, race, sex, and class identities are more privileged while others are undermined and marginalized. Consequently, this makes some people feel more protected or vulnerable during debates and discussions. A collaborative effort between the students, TA, and instructor is needed to create a supportive learning environment. While everyone should feel free to experiment creatively and conceptually, if a class member points out that something you have said or shared with the group is offensive, in lieu of defensiveness; this class will work to instead approach the discussion as a valuable opportunity for us to grow and learn from one another. Alternatively if you feel that something said in discussion or included in a piece of work is harmful, you are encouraged to speak with the instructor or TA.
 
 Inspired and adapted from:
-“What To Expect” by Chelsea Thompto
-VoidLab / CC SA
+“What To Expect” by Chelsea Thompto; VoidLab / CC SA;
 Shared by Kristin McWharter
