@@ -1,6 +1,7 @@
 <style>
   img {
     margin-top: 1em;
+    max-width: 700px;
   }
 
   img + em {
