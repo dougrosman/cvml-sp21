@@ -11,7 +11,8 @@
   }
 
   h4 {
-    background: #eee;
+    background: #fcc;
+    padding: .5em;
   }
 </style>
 
@@ -69,7 +70,10 @@
 
 #### 6. Tool Setup
 
-1. Create a GitHub account
+1. **GitHub**
+   1. Create a [GitHub](https://github.com/) account (if you don't already have one)
+      1. make your username something easy to remember
+      2. 
 
 
 ### Afternoon (2:00p-5:00p)
