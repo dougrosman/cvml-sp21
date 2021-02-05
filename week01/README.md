@@ -25,6 +25,11 @@
     background: #cfc;
     padding: .25em;
   }
+
+  h5 {
+    background: #ffc;
+    padding: .25em;
+  }
 </style>
 
 # Week 01 - 02/02/21
@@ -41,8 +46,13 @@
       - [2. **P5.js Web Editor**](#2-p5js-web-editor)
       - [3. **Visual Studio Code (VS Code)**](#3-visual-studio-code-vs-code)
       - [4. **git**](#4-git)
+      - [5. **Web Browser (Firefox or Chrome)](#5-web-browser-firefox-or-chrome)
   - [Afternoon (2:00p-5:00p)](#afternoon-200p-500p)
     - [Zoom Annotations Workshop](#zoom-annotations-workshop)
+    - [In-depth guide](#in-depth-guide)
+      - [Useful Links](#useful-links)
+    - [Mac (coming soon)](#mac-coming-soon)
+    - [Windows (coming soon)](#windows-coming-soon)
 
 
 ## Morning (9:30-12:30p)
@@ -134,6 +144,9 @@
       1. Download the correct version [here](https://git-scm.com/downloads).
       2. Run the installer. The default settings are fine, you can click 'next' for each of the pages you encounter.
 
+#### 5. **Web Browser (Firefox or Chrome)
+In this class, please be sure to only use Mozilla Firefox or Google Chrome. I prefer Firefox for a number of reasons, but Chrome often performs faster with graphics content than Firefox, so it's up to you depending on the needs of your art. Please do not use Safari or Edge.
+
 
 ## Afternoon (2:00p-5:00p)
 [![youtube](images/yt-sm.png) Watch Lecture 1-2](https://www.youtube.com/watch?v=tw-3QEblSGI)
@@ -149,4 +162,22 @@ If you're still having issues with OBS and other webcam-related things, I recomm
 
 I will also write out detailed step-by-step instructions below, beginning with **downloading and installing OBS**, and finishing with **displaying your interactive Zoom Annotations through Zoom!**
 
-But first, some quick, useful links
+
+
+
+
+### In-depth guide
+(*Note: I plan to fill this out with more information, but I've started with an outline of all the steps. You can always revisit the lecture recordings*)
+
+I've decided to split this up into two separate sections: Mac and Windows. There's plenty of overlap, but I think it'll be easier if they're separate. First, some quick, useful links:
+
+#### Useful Links
+1. [Download and Install OBS](https://obsproject.com/) (If you already have it, make sure you update it to the latest version at least version 26.1.1)
+2. [Download and Install ManyCam](https://manycam.com/) (Windows Only)
+3. [My completed p5.js code](https://editor.p5js.org/drosman-cvml/sketches/tKPeovVJz) - Open this up, and then go to 'File-->Save'. This will save a copy of this code to your p5.js account, which you can then continue to edit. (make sure to swap out my Teachable Machine Model link with your own at line 15 in th code)
+4. [Teachable Machine](https://teachablemachine.withgoogle.com/) - For this exercise, we created an 'Image Model'
+5. [Coding Challenge #157: Zoom Annotations with Machine Learning + p5.js](https://www.youtube.com/watch?v=9z9mbiOZqSs) - Dan Shiffman's original video for this workshop. **This is probably the quickest way to get back into working on this stuff.**
+
+### Mac (coming soon)
+
+### Windows (coming soon)
