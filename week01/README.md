@@ -2,6 +2,12 @@
   img {
     margin-top: 2em;
   }
+
+  img + em {
+    font-size: .8rem;
+    font-weight: 600;
+    margin-bottom: 2em;
+  }
 </style>
 
 # Week 01 - 02/02/21
@@ -30,10 +36,10 @@
 1. "Traditional" vs. Machine Learning-based Computer Vision
    1. "Traditional": writing specific algorithms "by hand" that allow a computer to parse images (like brightness thresholding, detecting edges, finding contours). Takes enormous amount of work to write effective algorithms. (For example, programming a computer to identify a dog by **describing in code** what makes a dog a dog)
    ![Canny Edge Detection](images/canny-edge.png)
-   *Canny Edge Detection ([Wikipedia, Edge detection](https://en.wikipedia.org/wiki/Edge_detection))*<br><br>
+   *Canny Edge Detection ([Wikipedia, Edge detection](https://en.wikipedia.org/wiki/Edge_detection))*
    1. Machine Learning: feeding vast amounts of data into an artificial neural network that then "learns" its own way of describing an image. Often talked about as a form of Artificial Intelligence. (For example, teaching a computer to identify a dog by **feeding it 10,000 images of dogs**, then allowing it to come up with its own description of what a dog is)
    ![Dog - Convolutional Neural Network Features](images/convnet-dog.jpg)
-   *Convolutional Neural Network with displaying salient features of this image ([ml4a, Convnet Viewer](https://ml4a.github.io/guides/ConvnetViewer/))*<br><br>
+   *Convolutional Neural Network with displaying salient features of this image ([ml4a, Convnet Viewer](https://ml4a.github.io/guides/ConvnetViewer/))*
    1. Both techniques are still widely used, as they're both useful for different tasks. They're frequently used together, where traditional CV approaches are used to prepare images for a data set that is then fed to a neural network.
 
 
