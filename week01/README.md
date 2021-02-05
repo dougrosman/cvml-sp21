@@ -1,10 +1,15 @@
 # Week 01 - 02/02/21
 
-## Things to set up
+## Agenda
 
 
-## AI: what's it doing?
-[Spot's Got an Arm!](https://www.youtube.com/watch?v=6Zbhvaac68Y)
-[The Big Sleep (Text to Image)](https://dank.xyz/)
-[DALL·E](https://openai.com/blog/dall-e/)
+### Morning (9:30-12:30p)
+Lecture 1-1: https://www.youtube.com/watch?v=jv_p-k5fays
+* [The Big Sleep (Text to Image)](https://dank.xyz/)
+* [DALL·E](https://openai.com/blog/dall-e/)
+  
+
+### Afternoon (2:00p-5:00p)
+Lecure 1-2: https://www.youtube.com/watch?v=tw-3QEblSGI
+
 
