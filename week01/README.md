@@ -4,9 +4,14 @@
   }
 
   img + em {
-    font-size: .8rem;
+    display: inline-block;
+    font-size: .9rem;
     font-weight: 600;
     margin-bottom: 2em;
+  }
+
+  h4 {
+    background: #eee;
   }
 </style>
 
@@ -41,6 +46,11 @@
    ![Dog - Convolutional Neural Network Features](images/convnet-dog.jpg)
    *Convolutional Neural Network with displaying salient features of this image ([ml4a, Convnet Viewer](https://ml4a.github.io/guides/ConvnetViewer/))*
    1. Both techniques are still widely used, as they're both useful for different tasks. They're frequently used together, where traditional CV approaches are used to prepare images for a data set that is then fed to a neural network.
+
+#### 4. Art Examples
+
+![Learning to see, Memo Akten](images/learning-to-see.png)
+*Learning to see: Gloomy Sunday - Memo Akten, 2017* [[watch on vimeo]](https://vimeo.com/260612034)
 
 
 
