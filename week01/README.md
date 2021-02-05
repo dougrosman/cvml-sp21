@@ -1,6 +1,6 @@
 <style>
   img {
-    margin-top: 2em;
+    margin-top: 1em;
   }
 
   img + em {
@@ -13,6 +13,11 @@
   h4 {
     background: #fcc;
     padding: .5em;
+  }
+
+  h5 {
+    background: #cfc;
+    padding: .25em;
   }
 </style>
 
@@ -70,17 +75,44 @@
 
 #### 6. Tool Setup
 
-1. **GitHub**
+##### 1. **GitHub**
    1. Create a [GitHub](https://github.com/) account (if you don't already have one)
-      1. make your username something easy to remember
-      2. 
+      1. Make your username something easy to remember (it will be part of your website URL (e.g. **dougrosman**.github.io/cvml-sp21))
+      2. Use your school email to sign up for an account
+   2. Create a new repository for this class
+      1. On [github.com](https://github.com/) Click the '+' in the upper-right of the screen and select 'Add Repository'
+      2. Name your repo (something like CVML). Don't include any spaces
+      3. Write a brief description
+      4. Keep the Repo public
+      5. **Check off 'Add a README file'** (don't forget this step!)
+      6. Click the green 'Create repository' button
+      7. Go to your repository settings ![GitHub Settings](images/gh-settings.png)
+      8. Scroll down almost to the bottom to the 'GitHub Pages' section
+      9. Set the Source branch to 'main' and click 'Save' ![GitHub Settings](images/gh-settings-pages.png)
+      10. After saving, the page will refresh. Scroll down to the same section again, and make note of your GitHub Pages URL. This is the link to your public website. GitHub Pages is great! Free web hosting!! (Note: this is my link, yours will have your username and repo in it) ![GitHub Settings](images/gh-settings-url.png)
+
+##### 2. **P5.js Web Editor**
+   1. Create an account on [editor.p5js.org](https://editor.p5js.org/)
+
+##### 3. **Visual Studio Code (VS Code)**
+   Visual Studio Code is a *text editor*, which is a program that makes writing code easier by automating some of the repetitive parts of coding. While you may already use a text editor like Atom, Brackets or Sublime Text, I highly recommend using VS Code in this class, because it has a couple of built-in features we'll rely on to streamline our code-writing
+   1. Download VS Code [here](https://code.visualstudio.com/)
+   2. Follow the installation instructions (on Windows, the default options during setup are fine)
+   3. Once installed, open VS Code so we can set some important preferences. Open your 'preferences' or 'settings' menu and change the following preferences. You can use the search bar to search for the preferences.<br>
+   ![VS Code settings](images/learning-to-see.png/../vsc-settings.png)
+      1. 'Auto Save' - set to 'afterDelay'
+      2. 'Word Wrap' - set 'Editor: Word Wrap' to 'on'
+      3. 'Compact Folders' - Uncheck this box
+   1. Open the 'Extensions' panel ![Extensions](images/vsc-extensions.png)
+      1. Search 'Live Server' and click 'install' next to the top result (the one created by 'Ritwick Dey')
+   2. In your 'View' dropdown menu at the top of the screen, uncheck 'Show Minimap' ![Hide Minimap](images/vsc-view.png)
+
+##### 4. **git**
+   1. **Mac:**
+      1. Open your Terminal (you can use Spotlight Search) ![Spotlight search](images/spotlight.png)
+      2. In your Terminal, copy and paste `git --version` and then press 'Return'
+      3. If you see a version number, then git is already installed. If you don't, then a dialog window will pop up asking you if you would like to install some tools. Select 'Yes' or whatever it says in each dialog box to install **git** on your system
 
 
 ### Afternoon (2:00p-5:00p)
 [![youtube](images/yt-sm.png) Watch Lecture 1-2](https://www.youtube.com/watch?v=tw-3QEblSGI)
-
-
-
-
-* [The Big Sleep (Text to Image)](https://dank.xyz/)
-* [DALL·E](https://openai.com/blog/dall-e/)
