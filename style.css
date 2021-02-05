@@ -16,11 +16,26 @@ main {
     padding: .5em;
 }
 
+nav a {
+    color: darkcyan;
+    font-weight: 500;
+    font-size: 1.5rem;
+    
+}
+
+.link-description {
+    font-size: 1.5rem;
+    margin-right: 1em;
+}
+
 .saic {
     margin-bottom: .5em;
 }
 
 h3 {
     font-weight: normal;
+}
 
+.menu {
+    margin: 1em 0;
 }
