@@ -44,21 +44,26 @@
 
 In this section, you will find what basically amounts to me rambling about computers. I have a lot of thoughts about what it means to be an artist working technology. What kind of effort that takes. This rambling is a section of small section of those thoughts. This stuff goes not just for this class, but for any art you do that requires you to deal with technology.
 
-### Keyboard shortcuts
-
+### 0. Keyboard shortcuts
+1. 
 
 ### 1. GitHub
 1. What is GitHub
 2. Clone the repo
 3. Add + commit + push (repeat)
 
+
 ### 2. VS Code
 1. Working with Live Server
-2. Setting up a project
+2. Setting up a web project
+
 
 ### 2. HTML
 1. Required Elements
-2. 
+2. Opening and closing tags
+3. Block vs. Inline elements
+
+
 ### 3. CSS
 ### 4. P5.js/JavaScript
 
