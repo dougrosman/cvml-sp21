@@ -79,7 +79,7 @@ Exercise thoughts:
 - [Surface Tension](https://www.lozano-hemmer.com/surface_tension.php) - Rafael Lozano-Hemmer (1992)
 - [Standards and Double Standards](https://www.lozano-hemmer.com/standards_and_double_standards.php) - Rafael Lozano-Hemmer (2004)
 
-- [Drawing With Sound](https://annaridler.com/drawing-with-sound) - Anna Ridler (2017)****
+- [Drawing With Sound](https://annaridler.com/drawing-with-sound) - Anna Ridler (2017)
 
 #### Daniel Rozin (Mirrors)
 [Daniel Rozin Interview (2019)](https://www.youtube.com/watch?v=kV8v2GKC8WA)
