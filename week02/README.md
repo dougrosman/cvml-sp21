@@ -92,6 +92,9 @@ Exercise thoughts:
 
 
 ## Code
+### Setup
+
+
 ### p5.js sketches
 0. Coding review: Nested for-loop (filling the canvas)
 1. Coding review: arrays
