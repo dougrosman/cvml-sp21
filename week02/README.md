@@ -38,7 +38,7 @@
   }
 </style>
 
-# Week 02 - 02/09/21 - Intro to Computer Vision
+# Week 02 - 02/09/21 - Image Processing and "Mirrors"
 
 ##### Agenda
 1. Good morning!
@@ -61,8 +61,25 @@ Exercise thoughts:
 https://www.youtube.com/watch?v=7bXJ_obaiYQ
 https://www.youtube.com/watch?v=g5cIVq-l12I
 
+### CV
+[Early Days of Computer Vision (60s)](https://www.youtube.com/watch?v=gaQi26FbK4k)
+
+[Computer Vision vs Image Processing](https://www.youtube.com/watch?v=9-8Js62wzQs) [note: in general, "computer vision" is about understanding the world. Image processing a step in the pipeline towards understanding]
+
 ### Art
 - [Surface Tension](https://www.lozano-hemmer.com/surface_tension.php) - Rafael Lozano-Hemmer (1992)
 - [Standards and Double Standards](https://www.lozano-hemmer.com/standards_and_double_standards.php) - Rafael Lozano-Hemmer (2004)
 - [A Parallel Image](https://www.youtube.com/watch?v=g5cIVq-l12I) - Gebhard Sengmüller (2008)
 - [pointerpointer.com](https://pointerpointer.com/)
+- [Drawing With Sound](https://annaridler.com/drawing-with-sound) - Anna Ridler (2017)****
+
+#### Daniel Rozin (Mirrors)
+
+##### Software Mirrors
+* [Mirror No. 5 (2001)](https://vimeo.com/32462252)
+* [Darwinian Straw Mirror](https://vimeo.com/129686860)
+
+
+## Code
+### p5.js sketches
+1. Pixel access
