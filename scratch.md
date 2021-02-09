@@ -19,3 +19,7 @@
 8. Collective data set (assign people to come up with a data set, submit your idea anonymously, then people vote.)
 9. GAN topic: temporal subversion (working with data where atemporal latent space navigation resembles the motion of the real thing)
 10. pix2pix: low complexity to high complexity.
+
+green line meme: https://newmodels.io/proprietary/thin-green-line-duncan-wilson
+
+https://www.lozano-hemmer.com/body_movies.php
