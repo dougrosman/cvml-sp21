@@ -16,7 +16,7 @@ function draw() {
   background(0);
   let stepSize = 20;
   capture.loadPixels();
-  
+  let threshold = map(mouseX, 0, width, 0, 255, true);
   for(let y = 0; y < capture.height; y+=stepSize) {
     for(let x = 0; x < capture.width; x+=stepSize) {
       const index = (x + y * capture.width) * 4;
@@ -45,7 +45,7 @@ function draw() {
         scale(-1, 1);
         stroke(0);
         strokeWeight(0.25);
-        if(brightness > 140) {
+        if(brightness > threshold) {
           fill(0, 255, 0);
         } else {
           fill(c);
