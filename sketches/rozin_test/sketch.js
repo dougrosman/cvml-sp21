@@ -14,7 +14,7 @@ function setup() {
 
 function draw() {
   background(0);
-  let stepSize = 10;
+  let stepSize = 20;
   capture.loadPixels();
   
   for(let y = 0; y < capture.height; y+=stepSize) {
@@ -28,7 +28,7 @@ function draw() {
       
       let totalBrightness = r + g + b;
       let brightness = totalBrightness/3;
-      let size = map(brightness, 0, 255, stepSize/2, stepSize*2);
+      let size = map(brightness, 0, 255, stepSize/4, stepSize*1.5);
       
       // let scaleRatio;
       // if(windowWidth > windowHeight) {
@@ -37,14 +37,20 @@ function draw() {
       //   scaleRatio = windowWidth/capture.width;
       // }
       
-
+      
       // RECTANGLES
       push();
         //scale(scaleRatio, scaleRatio);
         translate(capture.width, 0);
         scale(-1, 1);
-        noStroke();
-        fill(c);
+        stroke(0);
+        strokeWeight(0.25);
+        if(brightness > 140) {
+          fill(0, 255, 0);
+        } else {
+          fill(c);
+        }
+        
         rect(x, y, size, size);
       pop();      
     }
