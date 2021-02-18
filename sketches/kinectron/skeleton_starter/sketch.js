@@ -18,7 +18,8 @@ function setup() {
 function initKinectron() {
   // Define and create an instance of kinectron
   // kinectron = new Kinectron("10.17.18.9");
-  kinectron = new Kinectron("192.168.0.58");
+  // kinectron = new Kinectron("192.168.0.58");
+  kinectron = new Kinectron("515cd381299d.ngrok.io");
 
   // Set Kinect type to windows
   kinectron.setKinectType("windows");
