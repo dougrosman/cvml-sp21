@@ -52,7 +52,6 @@ function drawSkeleton(body) {
     // Map Kinect joint data to canvas size; Draw the circle
     ellipse(jointX, jointY, jointSize, jointSize);
     fill(255);
-    console.log(joint);
     text(joint.jointType, jointX - jointSize/4, jointY + jointSize/4);
   }
 }

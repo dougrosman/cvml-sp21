@@ -4,7 +4,7 @@ Kinectron is an amazing tool that allows us to use a Kinect in our web browser.
 ### Quick links
 * [Kinectron website](https://kinectron.github.io/)
 * [Kinectron Coding Train Tutorial](https://www.youtube.com/watch?v=BV6xK3EOznI) (feat. Kinectron's creator Lisa Jamhoury)
-* [Peer.js website](https://peerjs.com/) (needed in order to remotely access a Kinect that isn't on your local network)
+* [Peer.js website](https://peerjs.com/) (we don't need this, but this is the library built into Kinectron that allows us to access kinect data over the Internet)
 
 ### Requirements
 Anybody can code with Kinectron on any computer, as long as you have access to Kinect *data.* I emphasize *data* because you don't technically need a Kinect--you can work with a remote Kinect in real-time, or with pre-recorded Kinect data that lives on your computer.
