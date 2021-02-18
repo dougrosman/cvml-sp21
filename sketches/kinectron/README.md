@@ -25,9 +25,8 @@ Anybody can code with Kinectron on any computer, as long as you have access to K
 5. [Download](https://cdn.jsdelivr.net/gh/kinectron/kinectron@0.3.6/client/dist/kinectron-client.js) the kinectron-client.js library and place the file in your libs folder in your class repository
 6. Create your p5.js sketch using the correct IP address to connect to a Kinect, or set it up so that you can use recorded Kinect data. ([Check out the starter code from the official setup guide here](https://kinectron.github.io/#/api/getting-started))
 7. **Starter Code:**
-   1. Local Kinect
-   2. Remote (public) Kinect
-   3. Pre-recorded Kinect Data
+   1. [Skeleton Starter](skeleton_starter/)
+   2. [Depth Starter](depth_starter/)
 
 
 **TODO**
