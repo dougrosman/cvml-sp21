@@ -15,11 +15,6 @@ function setup() {
   initKinectron();
 }
 
-function draw() {
-  nearThreshold = map(mouseX, 0, w, 0, 255-depthSlice, true);
-  farThreshold = nearThreshold + depthSlice;
-}
-
 function initKinectron() {
   // Define and create an instance of kinectron (change this to the correct IP address, this one here is Doug's local IP, and only works on his local network)
   kinectron = new Kinectron("10.17.18.9");
