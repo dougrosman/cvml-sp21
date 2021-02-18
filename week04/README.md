@@ -47,4 +47,4 @@
 ## Morning (9:30am - 12:30pm)
 
 ### Kinectron setup
-Visit the setup document [here](../sketches/kinectron/README.md)
+Visit the Kinectron setup document [here](../sketches/kinectron/README.md)
