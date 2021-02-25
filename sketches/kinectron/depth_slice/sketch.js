@@ -28,7 +28,7 @@ function draw() {
 
 function initKinectron() {
   // Define and create an instance of kinectron
-  kinectron = new Kinectron("10.17.18.9");
+  kinectron = new Kinectron("10.19.18.28");
 
   // Set Kinect type to windows
   kinectron.setKinectType("windows");

@@ -17,7 +17,7 @@ function setup() {
 
 function initKinectron() {
   // Define and create an instance of kinectron (change this to the correct IP address, this one here is Doug's local IP, and only works on his local network)
-  kinectron = new Kinectron("10.17.18.9");
+  kinectron = new Kinectron("10.19.18.28");
 
   // Set Kinect type to windows
   kinectron.setKinectType("windows");
@@ -31,7 +31,6 @@ function initKinectron() {
 
 // The incoming "depthImg" argument holds the Kinect depth image data. The depth data arrives in the form of individual images (in the webp image format), 30 times per second. You can analyze the depth image pixels the same way you would analyze pixels in a regular image.
 function drawDepth(depthImg) {
-  
   loadImage(depthImg.src, function(img) {
 
     img.loadPixels();

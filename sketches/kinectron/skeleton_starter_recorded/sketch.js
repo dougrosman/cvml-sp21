@@ -1,5 +1,16 @@
 // Declare kinectron
 let kinectron;
+let liveData = false;
+let sentTime = Date.now();
+let currentFrame = 0;
+let recorded_skeleton;
+let recorded_data_file = "recorded_skeleton.json";
+
+function preload() {
+  if (!liveData) {
+    recorded_skeleton = loadJSON(recorded_data_file);
+  }
+}
 
 function setup() {
   let canvas = createCanvas(960, 540);
@@ -13,14 +24,31 @@ function setup() {
 
   // set the color mode to HSB (Hue, Saturation, Brightness)
   colorMode(HSB, 255);
+
+  if (liveData) initKinectron();
+}
+
+function draw() {
+  if (!liveData) loopRecordedData();
+}
+
+function loopRecordedData() {
+  // send data every 20 seconds
+  if (Date.now() > sentTime + 20) {
+    drawSkeleton(recorded_skeleton[currentFrame]);
+    sentTime = Date.now();
+
+    if (currentFrame < Object.keys(recorded_skeleton).length - 1) {
+      currentFrame++;
+    } else {
+      currentFrame = 0;
+    }
+  }
 }
 
 function initKinectron() {
   // Define and create an instance of kinectron
-  // kinectron = new Kinectron("10.17.18.9");
-  // kinectron = new Kinectron("192.168.0.58");
-  // kinection = new Kinectron("b375f6036e73.ngrok.io");
-  kinectron = new Kinectron("10.19.18.28");
+  kinectron = new Kinectron("");
 
   // Set Kinect type to windows
   kinectron.setKinectType("windows");
@@ -44,7 +72,7 @@ function drawSkeleton(body) {
     let joint = body.joints[i];
 
     // Set the drawing color
-    // fill(100);
+    fill(100);
     let hue = map(i, 0, body.joints.length, 0, 255);
     fill(hue, 255, 127);
 
@@ -54,6 +82,6 @@ function drawSkeleton(body) {
     // Map Kinect joint data to canvas size; Draw the circle
     ellipse(jointX, jointY, jointSize, jointSize);
     fill(255);
-    text(joint.jointType, jointX - jointSize/4, jointY + jointSize/4);
+    text(i, jointX - jointSize/4, jointY + jointSize/4);
   }
 }
