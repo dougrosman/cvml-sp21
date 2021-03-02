@@ -26,9 +26,9 @@ function draw() {
   farThreshold = nearThreshold + depthSlice;
 }
 
-function initKinectron() {
+function initKinectron() {  
   // Define and create an instance of kinectron
-  kinectron = new Kinectron("10.19.18.28");
+  kinectron = new Kinectron("10.7.18.9");
 
   // Set Kinect type to windows
   kinectron.setKinectType("windows");
