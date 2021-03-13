@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Space Mono', monospace;
+}
+
+body {
+  overflow: hidden;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  list-style-type: none;
+  flex: 0 1 50%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  font-size: 40vmin;
+}
+
+
+li:hover {
+  background: black;
+}
+
+li a {
+  position: absolute;
+  font-size: 5vmin;
+  color: black;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+li:hover a {
+  color: white;
+}
+
+.c:hover {color: magenta;}
+.v:hover {color: yellow;}
+.m:hover {color: #00ff00;}
+.l:hover {color: red;}

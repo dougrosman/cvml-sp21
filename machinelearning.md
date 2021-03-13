@@ -14,9 +14,21 @@
 
 Machine Learning/Deep Learning/Neural Networks, etc.
 
+### Notes/Thoughts/Relevant links
+* [AlexNet](https://en.wikipedia.org/wiki/AlexNet)
+
+
+### Approaches
+* The spectrum of engagement with these tools (ML in the wild to creating your own dataset, to creating your own data set and tweaking the algorithm, to creating a neural network from scratch)
+* Critiquing the tool (excavating AI)
+* 
+
 ### AI Art/Creative Project collections
 * [Experiments with Google](https://experiments.withgoogle.com/)
 * [AIArtists.org](https://aiartists.org/)
+
+### Learn about Machine Learning
+* 
 
 ### Teach yourself machine learning
 * [Machine Learning for Artists (ml4a)](https://ml4a.github.io/) - Gene Kogan (with help from many contributors) starting point for learning machine learning. Some of the guides are out of date, but this website is still a good resource.
