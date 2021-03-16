@@ -137,6 +137,7 @@ Still from _[self-contained](https://dougrosman.com/self-contained-ii/)_ (2019)
 * [Simple Introduction to Convolutional Neural Networks](https://towardsdatascience.com/simple-introduction-to-convolutional-neural-networks-cdf8d3077bac)
 ![Convnet Features Image](https://miro.medium.com/max/3820/1*fLGuAUT5imTIGAeA4zzaWA.png)
 [GANs explained](https://www.youtube.com/watch?v=Sw9r8CL98N0) (Computerphile)
+[Cat Neuron](https://www.youtube.com/watch?v=8VdFf3egwfg&t=26s)
 
 #### Data sets
 * [imageNet Wikipedia](https://en.wikipedia.org/wiki/ImageNet#Bias_in_ImageNet)
