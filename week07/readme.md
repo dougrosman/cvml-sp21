@@ -132,8 +132,11 @@ Still from _[self-contained](https://dougrosman.com/self-contained-ii/)_ (2019)
 #### Explanatory
 * [Convolutional Network MNIST Demo](https://www.cs.ryerson.ca/~aharley/vis/conv/)
 * [Image Classifier Demo](https://codesandbox.io/s/z364noozrm)
+* [Convnet Explanation video 1](https://www.youtube.com/watch?v=YRhxdVk_sIs) (deep lizard)
+* [Convnet Explanation video 2](https://youtu.be/FmpDIaiMIeA?t=102) (Brandon Rohrer)
 * [Simple Introduction to Convolutional Neural Networks](https://towardsdatascience.com/simple-introduction-to-convolutional-neural-networks-cdf8d3077bac)
 ![Convnet Features Image](https://miro.medium.com/max/3820/1*fLGuAUT5imTIGAeA4zzaWA.png)
+[GANs explained](https://www.youtube.com/watch?v=Sw9r8CL98N0) (Computerphile)
 
 #### Data sets
 * [imageNet Wikipedia](https://en.wikipedia.org/wiki/ImageNet#Bias_in_ImageNet)
