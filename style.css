@@ -1,7 +1,11 @@
 * { margin: 0; padding: 0; box-sizing: border-box;}
 
+html {
+    font-size: 18px;
+}
+
 body {
-    font-family: Helvetica, Arial, sans-serif
+    font-family: 'Work Sans', Helvetica, Arial, sans-serif
 }
 
 a {
@@ -14,11 +18,12 @@ a:hover {
 
 li {
     margin: .5rem 0;
-    margin-left: 1em;
+    margin-left: 1.25em;
 }
 
 li a {
     text-decoration: none;
+    font-weight: 450;
 }
 
 header {
@@ -36,12 +41,14 @@ main {
     padding: .5rem;
     overflow-y: auto;
     max-height: 100vh;
+    padding-bottom: 2rem;
 }
 
 .left {
     box-shadow: 0 0 .875em -.5em black;
     min-height: 100vh;
     max-width: 300px;
+    padding-right: 1rem;
 }
 
 .right {
@@ -57,18 +64,19 @@ main {
 }
 
 .resource-list-group h3 {
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: .25rem;
+    font-weight: 600;
 }
 
 .resource-group {
     padding: .5rem;
     margin: .5rem;
     display: inline-block;
+    vertical-align: top;
 }
 
 .resource-group-title {
-    display: inline-block;
     padding: .25rem;
     font-size: 1.75rem;
 }
@@ -87,6 +95,7 @@ main {
 .resource-title {
     margin-bottom: .5rem;
 }
+
 .resource-description {
     line-height: 1.25rem;
 }
