@@ -28,3 +28,6 @@ Note: If you're extracting images from a video, you can save them as PNG or JPG.
 6. Extract a certain number of frames from a video by setting fps
 
     ```ffmpeg -i input.mp4 -vf fps=1 frames/output%d.jpg```
+
+1. Extract frames from video, also apply resize, crop, and fps.
+   `ffmpeg -i input.mp4 -q:v 2 -vf scale=-1:1024,fps=1,"crop=1024:1024" frames/output%5d.jpg`
