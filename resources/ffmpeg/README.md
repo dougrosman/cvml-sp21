@@ -31,3 +31,11 @@ Note: If you're extracting images from a video, you can save them as PNG or JPG.
 
 1. Extract frames from video, also apply resize, crop, and fps.
    `ffmpeg -i input.mp4 -q:v 2 -vf scale=-1:1024,fps=1,"crop=1024:1024" frames/output%5d.jpg`
+
+1. Same as above, but with a start offset so nothing from the first 30 seconds of video is captured:
+   `ffmpeg -i input.mp4 -ss 30 -q:v 2 -vf scale=-1:1024,fps=1,"crop=1024:1024" frames/output%5d.jpg`
+
+
+More Information:
+
+[Cutting small sections](https://trac.ffmpeg.org/wiki/Seeking#Cuttingsmallsections)
