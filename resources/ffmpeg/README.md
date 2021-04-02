@@ -1,5 +1,10 @@
 # FFMPEG Guide
 
+## **Videos**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fESqT02VxIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### Extracting images from a video file (and resizing/cropping them to 1024x1024).
+After following this tutorial, your images will be ready to be zipped and used to train a StyleGAN2 model.
+
 ## Installing FFMPEG
 ### Mac
 ### Windows
