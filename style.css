@@ -100,3 +100,8 @@ main {
     line-height: 1.25rem;
 }
 
+
+.coming-soon {
+    display: none;
+}
+
