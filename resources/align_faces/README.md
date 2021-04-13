@@ -45,7 +45,7 @@ code {
    1. $ `cd` into your desired directory (e.g. GitHub_Repos)
    2. $ `git clone https://github.com/dougrosman/cvml-dataset-tools.git`
    3. $ `cd cvml-dataset-tools/align_faces`
-3. Inside the *align_faces* folder create two empty folders:
+3. Inside the *align_faces* folder create two empty folders called *raw_images* and *aligned_images* (if they don't already exist):
    1. $ `mkdir raw_images`
    2. $ `mkdir aligned_images`
 
@@ -112,12 +112,12 @@ code {
 There are issues with some images not being read by the script. To make sure your images are the proper format, use the clean_images.py script in the *clean_images* folder.
 
 1. $ `cd` into the clean_images folder
-2. create a folder called *input* and a folder called *output*
+2. If they don't already exist, create a folder called *input* and a folder called *output*
    1. $ `mkdir input`
    2. $ `mkdir output`
 3. Place any images you want to "clean" into the *input* folder
 4. Clean your images
-   1. **If many of your images are large (>2000px in any dimension), this will significantly slow down the alignment process. It is recommended that you downscale your images**
+   1. **If many of your images are large (>2000px in any dimension), this will significantly slow down the alignment process. It is recommended that you downscale your images. You only need to run one of the following scrips**
       1. $ `python clean_images_downscale.py`
    2. If your images don't need to be downscaled, run the regular script:
       1. $ `python clean_images.py`
