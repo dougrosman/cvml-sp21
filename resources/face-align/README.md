@@ -1,3 +1,12 @@
+<style>
+code {
+  color: #0f0;
+  background: #111;
+  padding: .25em;
+}
+
+</style>
+
 # Align faces
 ##### Face alignment is useful for:
 1. Training a StyleGAN2 faces model to achieve realism
