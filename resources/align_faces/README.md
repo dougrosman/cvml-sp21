@@ -37,12 +37,22 @@ code {
    1. All the default install settings are fine, so keep hitting 'continue' until the installation finishes.
    2. **This may take some time. If it appears your installation is stuck at '_Running Package Scripts_', just wait a few minutes. If the install doesn't complete after 10 minutes, take a screenshot of your installer, or any errors you might have, and send it to Doug.**
 
+### **Windows Setup**
+#### 1. Download/Install Anaconda
+*Anaconda is a tool that allows you to create Python virtual environments. Virtual environments allow you to install different versions of Python and Python packages on your computer to use for individual projects, without these different versions conflicting with each other.*
+1. Download [Anaconda](https://www.anaconda.com/products/individual)
+   1. Click 'Download'
+   2. Choose **64-Bit Graphical Installer** under Windows 10
+2. Install Anaconda
+   1. All the default install settings are fine, so keep hitting 'continue' until the installation finishes.
+   2. **This may take some time. If it appears your installation is stuck at '_Running Package Scripts_', just wait a few minutes. If the install doesn't complete after 10 minutes, take a screenshot of your installer, or any errors you might have, and send it to Doug.**
+
 #### 2. Download the face alignment scripts
 *These scripts are included in the [cvml-dataset-tools](https://github.com/dougrosman/cvml-dataset-tools) repo. We will clone the entire repo.*
 
-1. Open a new Terminal window (if one isn't already open)
+1. Open a new Git Bash window (if one isn't already open)
 2. Clone the [cvml-dataset-tools](https://github.com/dougrosman/cvml-dataset-tools) repo to your computer
-   1. $ `cd` into your desired directory
+   1. $ `cd` into your desired directory (e.g. GitHub_Repos)
    2. $ `git clone https://github.com/dougrosman/cvml-dataset-tools.git`
    3. $ `cd cvml-dataset-tools/align_faces`
 3. Inside the *align_faces* folder create two empty folders:
