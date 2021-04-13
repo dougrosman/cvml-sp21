@@ -123,6 +123,8 @@ There are issues with some images not being read by the script. To make sure you
       1. $ `python clean_images.py`
 5. Your images will end up in the *output* folder
 
+<hr>
+
 ## **PART III: ALIGNING YOUR FACES**
 
 This script takes a while to run, depending on how large your images are, how many images you have, and how powerful your CPU is. **Be sure to close any other CPU-intensive applications before running this script on a large number of images.** 
