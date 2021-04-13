@@ -1,7 +1,7 @@
 <style>
 code {
   color: #0f0;
-  background: #111;
+  background: #111 !important;
   padding: .25em;
 }
 
