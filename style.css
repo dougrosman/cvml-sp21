@@ -33,26 +33,30 @@ header {
 }
 
 main {
-    display: flex;
+    display: grid;
+    grid-template-columns: 250px 4fr;
     gap: 1em;
 }
 
 .container {
-    padding: .5rem;
+    padding: 1rem;
     overflow-y: auto;
-    max-height: 100vh;
     padding-bottom: 2rem;
+    max-height: 100vh;
 }
 
 .left {
-    box-shadow: 0 0 .875em -.5em black;
-    min-height: 100vh;
-    max-width: 300px;
-    padding-right: 1rem;
+    box-shadow: 0 0 .5em -.325em black;
 }
 
 .right {
     min-height: 100vh;
+}
+
+@media (max-width: 520px) {
+  main {
+    grid-template-columns: 1fr;
+  }
 }
 
 .header {
