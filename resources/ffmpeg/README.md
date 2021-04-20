@@ -9,6 +9,7 @@ After following this tutorial, your images will be ready to be zipped and used t
 
 ### Installing FFMPEG
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BRoZiY6E5h4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<hr>
 
 ## Using FFMPEG
 1. Open Terminal in Mac, or Command Prompt in Windows
