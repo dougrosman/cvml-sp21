@@ -61,7 +61,7 @@ We can't possibly credit all of the people and institutions that have contribute
 3. May 3: Critique week, no class
    1. Office hours day 1: TBD
    2. Office hours day 2: TBD
-4. Somtime before May 10...
+4. Sometime before May 10...
    1. Send me your final images, video, and text to be put on the website
 5. May 10:
    1. Morning: Finish up the class website.
