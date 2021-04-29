@@ -20,7 +20,7 @@ function initKinectron() {
   // kinectron = new Kinectron("10.17.18.9");
   // kinectron = new Kinectron("192.168.0.58");
   // kinection = new Kinectron("b375f6036e73.ngrok.io");
-  kinectron = new Kinectron("10.19.18.28");
+  kinectron = new Kinectron("10.33.18.11");
 
   // Set Kinect type to windows
   kinectron.setKinectType("windows");
@@ -34,6 +34,7 @@ function initKinectron() {
 
 // The incoming "body" argument holds the Kinect skeleton data
 function drawSkeleton(body) {
+  
   // Clear the background
   background(0);
   console.log(body);
@@ -51,6 +52,7 @@ function drawSkeleton(body) {
     let jointSize = 24;
     let jointX = joint.depthX * width;
     let jointY = joint.depthY * height;
+
     // Map Kinect joint data to canvas size; Draw the circle
     ellipse(jointX, jointY, jointSize, jointSize);
     fill(255);
