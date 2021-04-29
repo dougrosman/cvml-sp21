@@ -44,3 +44,4 @@ Note: If you're extracting images from a video, you can save them as PNG or JPG.
 More Information:
 
 [Cutting small sections](https://trac.ffmpeg.org/wiki/Seeking#Cuttingsmallsections)
+[FFMPEG Upscaling Tutorial](https://ottverse.com/change-resolution-resize-scale-video-using-ffmpeg/)
