@@ -1,5 +1,8 @@
 # Pix2pixHD
 
+## Start Here
+Doug's [forked pix2pixHD repo](https://github.com/dougrosman/pix2pixHD) has the link to the Colab Notebook at the top of the README.
+
 ## FFMPEG Commands
 
 
