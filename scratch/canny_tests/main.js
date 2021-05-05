@@ -1,4 +1,4 @@
-const NUM_IMAGES = 50;
+const NUM_IMAGES = 25;
 let HEADERS = ['source','25_150', '25_200', '25_300', '50_150', '50_200', '50_300', '100_150', '100_200', '100_300'];
 const NUM_TESTS = HEADERS.length-1;
 let entry = ``;
