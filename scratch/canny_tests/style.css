@@ -1,0 +1,33 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+    font-family: Arial;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    min-width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.column__header {
+    text-align: center;
+    font-weight: 400;
+    padding: .25rem;
+    border: 1px solid black;
+    position: sticky;
+    top: 0;
+    background: white;
+}
+
+.sample {
+    max-width: 100%;
+}
