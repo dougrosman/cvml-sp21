@@ -1,11 +1,8 @@
 // Declare kinectron
 let kinectron;
-
-let w = 512;
-let h = 424;
-let nearThreshold;
-let farThreshold;
-let depthSlice;
+let w = 1440;
+let h = 1440;
+let frames = [];
 
 function setup() {
   let canvas = createCanvas(w, h);
@@ -17,18 +14,15 @@ function setup() {
   // Initialize Kinectron
   initKinectron();
 
-  // set the width of the depth you would like to capture
-  depthSlice = 20;
 }
 
 function draw() {
-  nearThreshold = map(mouseX, 0, w, 0, 255-depthSlice, true);
-  farThreshold = nearThreshold + depthSlice;
+  // background(127);
 }
 
 function initKinectron() {  
   // Define and create an instance of kinectron
-  kinectron = new Kinectron("10.7.18.9");
+  kinectron = new Kinectron("192.168.0.58");
 
   // Set Kinect type to windows
   kinectron.setKinectType("windows");
@@ -37,35 +31,50 @@ function initKinectron() {
   kinectron.makeConnection();
 
   // Request all tracked bodies and pass data to your callback
-  kinectron.startDepth(drawDepth);
+  //kinectron.startDepth(drawDepth);
+  kinectron.setColorCallback(colorCallback);
+	kinectron.setDepthCallback(depthCallback);
+	kinectron.setBodiesCallback(bodyCallback);
+
+	// Set frames wanted from Kinectron 
+	frames = ["color", "depth", "body"];
+
+  kinectron.startMultiFrame(frames);
+}
+
+
+function colorCallback(colorImg) {
+	loadImage(colorImg.src, function(loadedImage) {
+    image(loadedImage, 0, 0);
+  });
+}
+
+function depthCallback(depthImg) {
+  loadImage(depthImg.src, function(img) {
+    image(img, w/2, 0);
+	});	
 }
 
 // The incoming "body" argument holds the Kinect skeleton data
-function drawDepth(depthImg) {
-  // Clear the background
-  //background(0);
+function bodyCallback(body) {
 
-  loadImage(depthImg.src, function(img) {
+  // Draw a circle at the location of each joint
+  for (let i = 0; i < body.joints.length; i++) {
+    // Get the joint
+    let joint = body.joints[i];
 
-    //image(img, 0, 0);
-    img.loadPixels();
+    // Set the drawing color
+    // fill(100);
+    let hue = map(i, 0, body.joints.length, 0, 255);
+    fill(hue, 255, 127);
 
-    for(let y = 0; y < h; y++) {
-      for(let x = 0; x < w; x++) {
-        const index = (x + y*width)*4;
-        
-        let r = img.pixels[index];
-        // let g = img.pixels[index+1];
-        // let b = img.pixels[index+2];
+    let jointSize = 24;
+    let jointX = joint.depthX * width;
+    let jointY = joint.depthY * height;
 
-        if(r > nearThreshold && r < farThreshold) {
-          img.pixels[index] = 255;
-          img.pixels[index+1] = 0;
-          img.pixels[index+2] = 0;
-        }
-      }
-    }
-    img.updatePixels();
-    image(img, 0, 0);
-	});	
+    // Map Kinect joint data to canvas size; Draw the circle
+    ellipse(jointX, jointY, jointSize, jointSize);
+    fill(255);
+    text(joint.jointType, jointX - jointSize/4, jointY + jointSize/4);
+  }
 }

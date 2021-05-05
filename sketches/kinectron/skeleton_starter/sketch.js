@@ -20,7 +20,7 @@ function initKinectron() {
   // kinectron = new Kinectron("10.17.18.9");
   // kinectron = new Kinectron("192.168.0.58");
   // kinection = new Kinectron("b375f6036e73.ngrok.io");
-  kinectron = new Kinectron("10.33.18.11");
+  kinectron = new Kinectron("192.168.0.58");
 
   // Set Kinect type to windows
   kinectron.setKinectType("windows");
