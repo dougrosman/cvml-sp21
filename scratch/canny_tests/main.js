@@ -1,6 +1,6 @@
 const NUM_IMAGES = 25;
 let HEADERS = ['source','c50_100', 'c50_150', 'c50_200', 'c75_150', 'c75_200', 'c75_250', 'c100_150', 'c100_200', 'c100_250', 'c100_300'];
-const NUM_TESTS = HEADERS.length-1;
+const NUM_TESTS = HEADERS.length;
 let entry = ``;
 
 
