@@ -12,7 +12,7 @@ for(let i = 0; i < NUM_TESTS; i++) {
     for(let j = 0; j < NUM_IMAGES; j++) {
         let counter = (100 + j + 1) + '';
         let counterString = counter.slice(1);
-        let tempEntry = `<img src="./images/${HEADERS[i]}/better-hands_00${counterString}.PNG" alt="canny-hand" class="sample">`
+        let tempEntry = `<img src="./images/${HEADERS[i]}/better-hands_00${counterString}.png" alt="canny-hand" class="sample">`
         $('.column:last-child').append(tempEntry);
     }
 }
