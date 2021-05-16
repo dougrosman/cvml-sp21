@@ -1,0 +1,919 @@
+[
+  {
+    "filename": "1.jpg",
+    "alt_text": "Ars Electronica 2018, image 1",
+    "year": "2018",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "2.jpg",
+    "alt_text": "Ars Electronica 2018, image 2",
+    "year": "2018",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "3.jpg",
+    "alt_text": "Ars Electronica 2018, image 3",
+    "year": "2018",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "4.jpg",
+    "alt_text": "Ars Electronica 2018, image 4",
+    "year": "2018",
+    "type": "exhibition",
+    "include": false
+  },
+  {
+    "filename": "5.jpg",
+    "alt_text": "Ars Electronica 2018, image 5",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "6.jpg",
+    "alt_text": "Ars Electronica 2018, image 6",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "7.jpg",
+    "alt_text": "Ars Electronica 2018, image 7",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "8.jpg",
+    "alt_text": "Ars Electronica 2018, image 8",
+    "year": "2018",
+    "type": "exhibition",
+    "include": false
+  },
+  {
+    "filename": "9.jpg",
+    "alt_text": "Ars Electronica 2018, image 9",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "10.jpg",
+    "alt_text": "Ars Electronica 2018, image 10",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "11.jpg",
+    "alt_text": "Ars Electronica 2018, image 11",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "12.jpg",
+    "alt_text": "Ars Electronica 2018, image 12",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "13.jpg",
+    "alt_text": "Ars Electronica 2018, image 13",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "14.jpg",
+    "alt_text": "Ars Electronica 2018, image 14",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "15.jpg",
+    "alt_text": "Ars Electronica 2018, image 15",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "16.jpg",
+    "alt_text": "Ars Electronica 2018, image 16",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "17.jpg",
+    "alt_text": "Ars Electronica 2018, image 17",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "18.jpg",
+    "alt_text": "Ars Electronica 2018, image 18",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "19.jpg",
+    "alt_text": "Ars Electronica 2018, image 19",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "20.jpg",
+    "alt_text": "Ars Electronica 2018, image 20",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "21.jpg",
+    "alt_text": "Ars Electronica 2018, image 21",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "22.jpg",
+    "alt_text": "Ars Electronica 2018, image 22",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "23.jpg",
+    "alt_text": "Ars Electronica 2018, image 23",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "24.jpg",
+    "alt_text": "Ars Electronica 2018, image 24",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "25.jpg",
+    "alt_text": "Ars Electronica 2018, image 25",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "26.jpg",
+    "alt_text": "Ars Electronica 2018, image 26",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "27.jpg",
+    "alt_text": "Ars Electronica 2018, image 27",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "28.jpg",
+    "alt_text": "Ars Electronica 2018, image 28",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "29.jpg",
+    "alt_text": "Ars Electronica 2018, image 29",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "30.jpg",
+    "alt_text": "Ars Electronica 2018, image 30",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "31.jpg",
+    "alt_text": "Ars Electronica 2018, image 31",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "32.jpg",
+    "alt_text": "Ars Electronica 2018, image 32",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "33.jpg",
+    "alt_text": "Ars Electronica 2018, image 33",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "34.jpg",
+    "alt_text": "Ars Electronica 2018, image 34",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "35.jpg",
+    "alt_text": "Ars Electronica 2018, image 35",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "36.jpg",
+    "alt_text": "Ars Electronica 2018, image 36",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "37.jpg",
+    "alt_text": "Ars Electronica 2018, image 37",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "38.jpg",
+    "alt_text": "Ars Electronica 2018, image 38",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "39.jpg",
+    "alt_text": "Ars Electronica 2018, image 39",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "40.jpg",
+    "alt_text": "Ars Electronica 2018, image 40",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "41.jpg",
+    "alt_text": "Ars Electronica 2018, image 41",
+    "year": "2018",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "42.jpg",
+    "alt_text": "Ars Electronica 2018, image 42",
+    "year": "2018",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "43.jpg",
+    "alt_text": "Ars Electronica 2018, image 43",
+    "year": "2018",
+    "type": "exhibition",
+    "include": false
+  },
+  {
+    "filename": "1.jpg",
+    "alt_text": "Ars Electronica 2019, image 1",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "2.jpg",
+    "alt_text": "Ars Electronica 2019, image 2",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "3.jpg",
+    "alt_text": "Ars Electronica 2019, image 3",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "4.jpg",
+    "alt_text": "Ars Electronica 2019, image 4",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "5.jpg",
+    "alt_text": "Ars Electronica 2019, image 5",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "6.jpg",
+    "alt_text": "Ars Electronica 2019, image 6",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "7.jpg",
+    "alt_text": "Ars Electronica 2019, image 7",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "8.jpg",
+    "alt_text": "Ars Electronica 2019, image 8",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "9.jpg",
+    "alt_text": "Ars Electronica 2019, image 9",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "10.jpg",
+    "alt_text": "Ars Electronica 2019, image 10",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "11.jpg",
+    "alt_text": "Ars Electronica 2019, image 11",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "12.jpg",
+    "alt_text": "Ars Electronica 2019, image 12",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "13.jpg",
+    "alt_text": "Ars Electronica 2019, image 13",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "14.jpg",
+    "alt_text": "Ars Electronica 2019, image 14",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "15.jpg",
+    "alt_text": "Ars Electronica 2019, image 15",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "16.jpg",
+    "alt_text": "Ars Electronica 2019, image 16",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "17.jpg",
+    "alt_text": "Ars Electronica 2019, image 17",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "18.jpg",
+    "alt_text": "Ars Electronica 2019, image 18",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "19.jpg",
+    "alt_text": "Ars Electronica 2019, image 19",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "20.jpg",
+    "alt_text": "Ars Electronica 2019, image 20",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "21.jpg",
+    "alt_text": "Ars Electronica 2019, image 21",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "22.jpg",
+    "alt_text": "Ars Electronica 2019, image 22",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "23.jpg",
+    "alt_text": "Ars Electronica 2019, image 23",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "24.jpg",
+    "alt_text": "Ars Electronica 2019, image 24",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "25.jpg",
+    "alt_text": "Ars Electronica 2019, image 25",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "26.jpg",
+    "alt_text": "Ars Electronica 2019, image 26",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "27.jpg",
+    "alt_text": "Ars Electronica 2019, image 27",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "28.jpg",
+    "alt_text": "Ars Electronica 2019, image 28",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "29.jpg",
+    "alt_text": "Ars Electronica 2019, image 29",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "30.jpg",
+    "alt_text": "Ars Electronica 2019, image 30",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "31.jpg",
+    "alt_text": "Ars Electronica 2019, image 31",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "32.jpg",
+    "alt_text": "Ars Electronica 2019, image 32",
+    "year": "2019",
+    "type": "setup",
+    "include": true
+  },
+  {
+    "filename": "33.jpg",
+    "alt_text": "Ars Electronica 2019, image 33",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "34.jpg",
+    "alt_text": "Ars Electronica 2019, image 34",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "35.jpg",
+    "alt_text": "Ars Electronica 2019, image 35",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "36.jpg",
+    "alt_text": "Ars Electronica 2019, image 36",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "37.jpg",
+    "alt_text": "Ars Electronica 2019, image 37",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "38.jpg",
+    "alt_text": "Ars Electronica 2019, image 38",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "39.jpg",
+    "alt_text": "Ars Electronica 2019, image 39",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "40.jpg",
+    "alt_text": "Ars Electronica 2019, image 40",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "41.jpg",
+    "alt_text": "Ars Electronica 2019, image 41",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "42.jpg",
+    "alt_text": "Ars Electronica 2019, image 42",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "43.jpg",
+    "alt_text": "Ars Electronica 2019, image 43",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "44.jpg",
+    "alt_text": "Ars Electronica 2019, image 44",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "45.jpg",
+    "alt_text": "Ars Electronica 2019, image 45",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "46.jpg",
+    "alt_text": "Ars Electronica 2019, image 46",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "47.jpg",
+    "alt_text": "Ars Electronica 2019, image 47",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "48.jpg",
+    "alt_text": "Ars Electronica 2019, image 48",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "49.jpg",
+    "alt_text": "Ars Electronica 2019, image 49",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "50.jpg",
+    "alt_text": "Ars Electronica 2019, image 50",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "51.jpg",
+    "alt_text": "Ars Electronica 2019, image 51",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "52.jpg",
+    "alt_text": "Ars Electronica 2019, image 52",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "53.jpg",
+    "alt_text": "Ars Electronica 2019, image 53",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "54.jpg",
+    "alt_text": "Ars Electronica 2019, image 54",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "55.jpg",
+    "alt_text": "Ars Electronica 2019, image 55",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "56.jpg",
+    "alt_text": "Ars Electronica 2019, image 56",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "57.jpg",
+    "alt_text": "Ars Electronica 2019, image 57",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "58.jpg",
+    "alt_text": "Ars Electronica 2019, image 58",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "59.jpg",
+    "alt_text": "Ars Electronica 2019, image 59",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "60.jpg",
+    "alt_text": "Ars Electronica 2019, image 60",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "61.jpg",
+    "alt_text": "Ars Electronica 2019, image 61",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "62.jpg",
+    "alt_text": "Ars Electronica 2019, image 62",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "63.jpg",
+    "alt_text": "Ars Electronica 2019, image 63",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "64.jpg",
+    "alt_text": "Ars Electronica 2019, image 64",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "65.jpg",
+    "alt_text": "Ars Electronica 2019, image 65",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "66.jpg",
+    "alt_text": "Ars Electronica 2019, image 66",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "67.jpg",
+    "alt_text": "Ars Electronica 2019, image 67",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "68.jpg",
+    "alt_text": "Ars Electronica 2019, image 68",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "69.jpg",
+    "alt_text": "Ars Electronica 2019, image 69",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "70.jpg",
+    "alt_text": "Ars Electronica 2019, image 70",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "71.jpg",
+    "alt_text": "Ars Electronica 2019, image 71",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "72.jpg",
+    "alt_text": "Ars Electronica 2019, image 72",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "73.jpg",
+    "alt_text": "Ars Electronica 2019, image 73",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "74.jpg",
+    "alt_text": "Ars Electronica 2019, image 74",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "75.jpg",
+    "alt_text": "Ars Electronica 2019, image 75",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "76.jpg",
+    "alt_text": "Ars Electronica 2019, image 76",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "77.jpg",
+    "alt_text": "Ars Electronica 2019, image 77",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "78.jpg",
+    "alt_text": "Ars Electronica 2019, image 78",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "79.jpg",
+    "alt_text": "Ars Electronica 2019, image 79",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "80.jpg",
+    "alt_text": "Ars Electronica 2019, image 80",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "81.jpg",
+    "alt_text": "Ars Electronica 2019, image 81",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "82.jpg",
+    "alt_text": "Ars Electronica 2019, image 82",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "83.jpg",
+    "alt_text": "Ars Electronica 2019, image 83",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "84.jpg",
+    "alt_text": "Ars Electronica 2019, image 84",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "85.jpg",
+    "alt_text": "Ars Electronica 2019, image 85",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "86.jpg",
+    "alt_text": "Ars Electronica 2019, image 86",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "87.jpg",
+    "alt_text": "Ars Electronica 2019, image 87",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  },
+  {
+    "filename": "88.jpg",
+    "alt_text": "Ars Electronica 2019, image 88",
+    "year": "2019",
+    "type": "exhibition",
+    "include": true
+  }
+]
