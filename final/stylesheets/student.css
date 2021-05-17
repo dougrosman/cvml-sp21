@@ -1,6 +1,36 @@
-.img, video {
-  width: 100%;
-  max-width: 600px;
+#artist-container {
+  max-width: 1000px;
   margin: 0 auto;
-  display: block;
+  padding: .75em;
 }
+
+.img, .video {
+  width: 100%;
+  display: block;
+  margin: 1em 0;
+}
+
+.statement, .description, .credit {
+  max-width: 70ch;
+  font-size: 1.25rem;
+  margin: 1em 0;
+}
+
+.artist {
+  font-weight: 400;
+  margin-top: 2em;
+}
+
+.socials {
+  margin-bottom: 4em;
+}
+
+.socials a {
+  color: var(--color-fg);
+  margin-right: 1em;
+}
+
+.socials a:hover {
+  color: var(--color-acc);
+}
+

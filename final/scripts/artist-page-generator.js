@@ -30,11 +30,12 @@ function loadContent() {
               let artistHTML = `<h1 class="artist">${ARTIST}</h1>`
               let instagramHTML = `<a href="${INSTAGRAM}" target="_blank" class="instagram">@${INSTAGRAM_HANDLE}</a>`
               let websiteHTML = `<a href="${WEBSITE}" target="_blank" class="website">${WEBSITE_URL_SHORT}</a>`
+              let socialsHTML = `<div class="socials">${instagramHTML}${websiteHTML}</div>`
               let statementHTML = `<p class="statement">${STATEMENT}</p>`;
               let descriptionHTML = `<p class="description">${DESCRIPTION}</p>`;
               let creditHTML = `<p class="credit">${CREDIT}</p>`;
 
-              $('#artist-container').append(artistHTML, instagramHTML, websiteHTML, statementHTML, descriptionHTML, creditHTML);
+              $('#artist-container').append(artistHTML, socialsHTML);
               addMedia(MEDIA, ARTIST);
               $('#artist-container').append(statementHTML, descriptionHTML, creditHTML);
             }
@@ -50,7 +51,7 @@ function addMedia(media, artist) {
     let mediaHTML;
 
     if(ext == "mp4") {
-      mediaHTML = `<video src="media/${m}" class="video" autoplay muted controls></video>`
+      mediaHTML = `<video src="media/${m}" class="video" autoplay muted controls loop></video>`
     } else {
       mediaHTML = `<img src="media/${m}" alt-text="${artist} img ${m}" class="img">`
     }

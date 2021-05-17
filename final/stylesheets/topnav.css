@@ -33,9 +33,11 @@
 }
 .site-title__semester {
     font-size: 1.25rem;
+    font-weight: 600;
 }
 .site-title__ats {
     font-size: 1rem;
+    
 }
 
 /* TOPNAV__RIGHT */

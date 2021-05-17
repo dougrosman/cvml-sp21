@@ -56,19 +56,3 @@ let containerTopnav =
 `
 
 $('.container-topnav').append(containerTopnav);
-
-
-  // <a href="." class="topnav__dropdown-menu-item current-page">Home</a>
-  // <a href="." class="topnav__dropdown-menu-item">Alyssa Cheng</a>
-  // <a href="." class="topnav__dropdown-menu-item">Ben Glass</a>
-  // <a href="." class="topnav__dropdown-menu-item">Boomer Scripps</a>
-  // <a href="." class="topnav__dropdown-menu-item" style="display: none;">Christie Kim</a>
-  // <a href="." class="topnav__dropdown-menu-item">Daniella Thach</a>
-  // <a href="." class="topnav__dropdown-menu-item">Henry Boeschenstein</a>
-  // <a href="." class="topnav__dropdown-menu-item">Jieun Hong</a>
-  // <a href="." class="topnav__dropdown-menu-item">Keming Li</a>
-  // <a href="." class="topnav__dropdown-menu-item">Kio Zhu</a>
-  // <a href="." class="topnav__dropdown-menu-item">Li Zhu</a>
-  // <a href="." class="topnav__dropdown-menu-item">Max Weiss</a>
-  // <a href="." class="topnav__dropdown-menu-item">Sean Cheng</a>
-  // <a href="." class="topnav__dropdown-menu-item">Victoria Yang</a>
