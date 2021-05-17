@@ -1,6 +1,6 @@
 [
   {
-    "artist": "Test Student 1",
+    "artist": "Test Student",
     "instagram": "https://instagram.com/thedougrosmanstory",
     "website": "https://dougrosman.com",
     "media": ["1.jpg", "2.jpg", "3.jpg", "4.mp4", "5.jpg", "6.jpg", "7.jpg", "8.jpg"],
@@ -10,8 +10,129 @@
     "include": true
   },
   {
-    "artist": "Test Student 2",
-    "socials": [{"instagram": "https://instagram.com/thedougrosmanstory"}],
+    "artist": "Alyssa Cheng",
+    "instagram": "#",
+    "website": "#",
+    "media": ["1.jpg", "2.jpg", "3.jpg", "4.mp4", "5.jpg", "6.jpg", "7.jpg", "8.jpg"],
+    "statement": "statement",
+    "description": "description",
+    "credit": "credit",
+    "include": true
+  },
+  {
+    "artist": "Ben Glass",
+    "instagram": "#",
+    "website": "#",
+    "media": ["1.jpg", "2.jpg", "3.jpg", "4.mp4", "5.jpg", "6.jpg", "7.jpg", "8.jpg"],
+    "statement": "statement",
+    "description": "description",
+    "credit": "credit",
+    "include": true
+  },
+  {
+    "artist": "Boomer Scripps",
+    "instagram": "#",
+    "website": "#",
+    "media": ["1.jpg", "2.jpg", "3.jpg", "4.mp4", "5.jpg", "6.jpg", "7.jpg", "8.jpg"],
+    "statement": "statement",
+    "description": "description",
+    "credit": "credit",
+    "include": true
+  },
+  {
+    "artist": "Daniella Thach",
+    "instagram": "#",
+    "website": "#",
+    "media": ["1.jpg", "2.jpg", "3.jpg", "4.mp4", "5.jpg", "6.jpg", "7.jpg", "8.jpg"],
+    "statement": "statement",
+    "description": "description",
+    "credit": "credit",
+    "include": true
+  },
+  {
+    "artist": "Henry Boeschenstein",
+    "instagram": "#",
+    "website": "#",
+    "media": ["1.jpg", "2.jpg", "3.jpg", "4.mp4", "5.jpg", "6.jpg", "7.jpg", "8.jpg"],
+    "statement": "statement",
+    "description": "description",
+    "credit": "credit",
+    "include": true
+  },
+  {
+    "artist": "Jieun Hong",
+    "instagram": "#",
+    "website": "#",
+    "media": ["1.jpg", "2.jpg", "3.jpg", "4.mp4", "5.jpg", "6.jpg", "7.jpg", "8.jpg"],
+    "statement": "statement",
+    "description": "description",
+    "credit": "credit",
+    "include": true
+  },
+  {
+    "artist": "Alyssa Cheng",
+    "instagram": "#",
+    "website": "#",
+    "media": ["1.jpg", "2.jpg", "3.jpg", "4.mp4", "5.jpg", "6.jpg", "7.jpg", "8.jpg"],
+    "statement": "statement",
+    "description": "description",
+    "credit": "credit",
+    "include": true
+  },
+  {
+    "artist": "Keming Li",
+    "instagram": "#",
+    "website": "#",
+    "media": ["1.jpg", "2.jpg", "3.jpg", "4.mp4", "5.jpg", "6.jpg", "7.jpg", "8.jpg"],
+    "statement": "statement",
+    "description": "description",
+    "credit": "credit",
+    "include": true
+  },
+  {
+    "artist": "Kio Zhu",
+    "instagram": "#",
+    "website": "#",
+    "media": ["1.jpg", "2.jpg", "3.jpg", "4.mp4", "5.jpg", "6.jpg", "7.jpg", "8.jpg"],
+    "statement": "statement",
+    "description": "description",
+    "credit": "credit",
+    "include": true
+  },
+  {
+    "artist": "Li Zhu",
+    "instagram": "#",
+    "website": "#",
+    "media": ["1.jpg", "2.jpg", "3.jpg", "4.mp4", "5.jpg", "6.jpg", "7.jpg", "8.jpg"],
+    "statement": "statement",
+    "description": "description",
+    "credit": "credit",
+    "include": true
+  },
+  {
+    "artist": "Max Weiss",
+    "instagram": "#",
+    "website": "#",
+    "media": ["1.jpg", "2.jpg", "3.jpg", "4.mp4", "5.jpg", "6.jpg", "7.jpg", "8.jpg"],
+    "statement": "statement",
+    "description": "description",
+    "credit": "credit",
+    "include": true
+  },
+  {
+    "artist": "Sean Cheng",
+    "instagram": "#",
+    "website": "#",
+    "media": ["1.jpg", "2.jpg", "3.jpg", "4.mp4", "5.jpg", "6.jpg", "7.jpg", "8.jpg"],
+    "statement": "statement",
+    "description": "description",
+    "credit": "credit",
+    "include": true
+  },
+  {
+    "artist": "Victoria Yang",
+    "instagram": "#",
+    "website": "#",
     "media": ["1.jpg", "2.jpg", "3.jpg", "4.mp4", "5.jpg", "6.jpg", "7.jpg", "8.jpg"],
     "statement": "statement",
     "description": "description",
