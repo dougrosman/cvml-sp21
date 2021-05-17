@@ -11,7 +11,7 @@
 }
 
 .statement, .description, .credit {
-  max-width: 70ch;
+  max-width: 60ch;
   font-size: 1.25rem;
   margin: 1em 0;
 }

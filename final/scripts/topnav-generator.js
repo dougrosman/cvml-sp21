@@ -5,7 +5,7 @@ let currentFolder = currentURL[currentURL.length-2];
 let artistFolders = [
   "test-student",
   "alyssa-cheng",
-  "ben-glass",
+  "benjamin-glass",
   "boomer-scripps",
   "daniella-thach",
   "henry-boeschenstein",
