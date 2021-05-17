@@ -1,36 +1,76 @@
 #artist-container {
-  max-width: 1000px;
-  margin: 0 auto;
+  margin: 2rem auto;
   padding: .75em;
+  max-width: 700px;
 }
 
 .img, .video {
   width: 100%;
   display: block;
-  margin: 1em 0;
+  margin: 1em auto;
 }
 
-.statement, .description, .credit {
-  max-width: 60ch;
+.content-container {
   font-size: 1.25rem;
-  margin: 1em 0;
 }
 
 .artist {
-  font-weight: 400;
-  margin-top: 2em;
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: .125em;
+  color: var(--color-bg);
+  background: var(--color-fg);
+  padding: .125em;
 }
 
 .socials {
-  margin-bottom: 4em;
+  font-size: .75em;
 }
 
 .socials a {
   color: var(--color-fg);
   margin-right: 1em;
+  text-decoration: none;
+  font-weight: 500;
 }
 
 .socials a:hover {
   color: var(--color-acc);
 }
 
+.title {
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  font-weight: 300;
+  font-family: var(--font-acc);
+  line-height: 1em;
+}
+
+.year {
+  font-weight: 600;
+  margin-top: .125em;
+  margin-bottom: 1em;
+}
+
+.medium {
+  margin-bottom: .125em;
+}
+
+.materials {
+  font-size: 1rem;
+  max-width: 40ch;
+}
+
+.statement {
+  margin: 2rem 0;
+}
+
+.description-label {
+  font-weight: 600;
+  margin: 2.5em 0 .5em 0;
+}
+
+.credit-label {
+  font-weight: 600;
+  margin: 2.5em 0 .5em 0;
+}
