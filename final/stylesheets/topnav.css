@@ -1,14 +1,10 @@
 /* TOPNAV */
 .container-topnav {
-    position: absolute;
-    top: 0;
-    width: 100vw;
-    z-index: 9999;
     background: #222;
+    position: relative;
 }
 
 .topnav {
-    background: var(--color-fg-a9);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -106,6 +102,7 @@
     top: 100%;
     left: 0;
     display: none;
+    background: #222;
 }
 
 .topnav__dropdown-menu-item {

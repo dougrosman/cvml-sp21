@@ -1,25 +1,6 @@
 const currentArtist = $("title").text();
 let currentURL = window.location.href.split("/");
 let currentFolder = currentURL[currentURL.length-2];
-const currentStudent = currentFolder.split("-")[0];
-
-console.log(currentStudent);
-
-// let artistFolders = [
-//   {test: "test-student",
-//   {alyssa: "alyssa-cheng"},
-//   {ben: "ben-glass"},
-//   {boomer: "boomer-scripps"},
-//   {daniella: "daniella-thach"},
-//   {henry: "henry-boeschenstein"},
-//   {jieun: "jieun-hong"},
-//   {keming: "keming-li"},
-//   {kio: "kio-zhu"},
-//   {li: "lio-zhu"},
-//   {max: "max-weiss"},
-//   {sean: "sean-cheng"},
-//   {victoria: "victoria-yang"}
-// ]
 
 let artistFolders = [
   "test-student",
@@ -31,12 +12,13 @@ let artistFolders = [
   "jieun-hong",
   "keming-li",
   "kio-zhu",
-  "lio-zhu",
+  "li-zhu",
   "max-weiss",
   "sean-cheng",
   "victoria-yang"
 ]
 
+//
 let URLs = `<a href=".." class="topnav__dropdown-menu-item">Home</a>`;
 
 for(a of artistFolders) {
