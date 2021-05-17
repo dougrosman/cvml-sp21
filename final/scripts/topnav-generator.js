@@ -18,8 +18,15 @@ let artistFolders = [
   "victoria-yang"
 ]
 
-//
-let URLs = `<a href=".." class="topnav__dropdown-menu-item">Home</a>`;
+
+let directory = "";
+if(currentArtist == "CVML SP21 Finals") {
+  directory = "."
+} else {
+  directory = ".."
+}
+let URLs = `<a href="${directory}" class="topnav__dropdown-menu-item">Home</a>`;
+
 
 for(a of artistFolders) {
   let tempURL = ``;
@@ -27,7 +34,7 @@ for(a of artistFolders) {
     tempURL = `<a href="." class="topnav__dropdown-menu-item current-page">${currentArtist}</a>`
   } else {
     let fullName = a.split("-")[0] + " " + a.split("-")[1];
-    tempURL = `<a href="../${a}" class="topnav__dropdown-menu-item">${fullName}</a>`
+    tempURL = `<a href="${directory}/${a}" class="topnav__dropdown-menu-item">${fullName}</a>`
   }
   URLs+=tempURL;
 }
