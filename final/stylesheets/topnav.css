@@ -121,6 +121,7 @@
     transition: background-color .25s, color .25s;
     font-family: var(--font-accent);
     padding: .25em;
+    text-transform: capitalize;
 }
 
 .topnav__dropdown-menu-item:focus {
