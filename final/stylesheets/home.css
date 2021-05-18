@@ -41,8 +41,76 @@ summary:hover {
 
 .gallery-menu {
     padding: 2rem 0;
+    display: grid;
+    gap: .5em;
+    max-width: 1000px;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.gallery-menu__item {
+    text-decoration: none;
+    overflow: hidden;
+}
+
+.gallery-menu__item:hover .item__text {
+    color: var(--color-fg);
+    background: var(--color-bg);
+}
+
+.item__img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+.item__text {
+    color: var(--color-bg);
+    padding: .325em;
+    transition: background-color .125s, color .125s;
 }
 
 .cv {
     font-weight: 500;
+}
+
+
+@media only screen
+and (max-width: 500px) {
+
+    
+}
+
+/* iPhone Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .final-project-statement h2 {
+        font-size: 1.75rem;
+    }
+    
+    .final-project-statement h3 {
+        font-size: 1em;
+        max-width: 200px;
+        margin: .75em auto;
+    }
+
+    .desktop-only {
+        display: none;
+    }
+    
+}
+
+/* iPhone Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+    .final-project-statement h3 {
+        font-size: .75em;
+        margin: .75em auto;
+    }
 }

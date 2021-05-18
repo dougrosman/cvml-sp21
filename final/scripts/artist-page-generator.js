@@ -142,7 +142,7 @@ function addMedia(media, captions, artist) {
       if(ext == "mp4") {
         mediaHTML = `<video src="media/${media[i]}" class="video" controls loop></video>`
       } else {
-        mediaHTML = `<a href="media/${media[i]}"><img src="media/${media[i]}" alt-text="${artist} img ${media[i]}" class="img"></a>`
+        mediaHTML = `<a href="media/${media[i]}" target="_blank"><img src="media/${media[i]}" alt-text="${artist} img ${media[i]}" class="img"></a>`
       }
     }
 
