@@ -90,7 +90,11 @@ p {
   font-weight: 600;
 }
 
-
+.caption {
+  margin-top: -.75rem;
+  text-align: center;
+  font-size: .85em;
+}
 .description-label {
   font-weight: 600;
   margin: 2.5em 0 .5em 0;

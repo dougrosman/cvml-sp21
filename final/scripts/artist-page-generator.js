@@ -97,7 +97,11 @@ function loadContent() {
               }
               
               const MEDIA = d.media;
-              addMedia(MEDIA, ARTIST);
+              let captions = "";
+              if(d.captions) {
+                captions = d.captions;
+              }
+              addMedia(MEDIA, captions, ARTIST);
 
               if(d.postContent) {
                 const POSTCONTENT = d.postContent;
@@ -121,18 +125,28 @@ function loadContent() {
     }
 }
 
-function addMedia(media, artist) {
-  for(m of media) {
-    let ext = m.split(".");
+function addMedia(media, captions, artist) {
+  for(let i = 0; i < media.length; i++) {
+    let ext = media[i].split(".");
     ext = ext[ext.length-1];
 
     let mediaHTML;
 
-    if(ext == "mp4") {
-      mediaHTML = `<video src="media/${m}" class="video" controls loop></video>`
+    if(captions.length > 0) {
+      if(ext == "mp4") {
+        mediaHTML = `<video src="media/${media[i]}" class="video" controls loop></video><p class="caption">${captions[i]}</p>`
+      } else {
+        mediaHTML = `<a href="media/${media[i]}"><img src="media/${media[i]}" alt-text="${artist} img ${media[i]}" class="img"></a><p class="caption">${captions[i]}</p>`
+      }
     } else {
-      mediaHTML = `<img src="media/${m}" alt-text="${artist} img ${m}" class="img">`
+      if(ext == "mp4") {
+        mediaHTML = `<video src="media/${media[i]}" class="video" controls loop></video>`
+      } else {
+        mediaHTML = `<a href="media/${media[i]}"><img src="media/${media[i]}" alt-text="${artist} img ${media[i]}" class="img"></a>`
+      }
     }
+
+   
     $('.content-container').append(mediaHTML);
   }
 }
