@@ -13,7 +13,7 @@ let artistFolders = [
   "li-zhu",
   "max-weiss",
   "sean-cheng",
-  "victoria-yang"
+  "victoria-yujin-yang"
 ]
 
 let directory = "";
