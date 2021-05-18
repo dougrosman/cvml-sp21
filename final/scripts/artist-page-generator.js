@@ -129,7 +129,7 @@ function addMedia(media, artist) {
     let mediaHTML;
 
     if(ext == "mp4") {
-      mediaHTML = `<video src="media/${m}" class="video" muted controls loop></video>`
+      mediaHTML = `<video src="media/${m}" class="video" controls loop></video>`
     } else {
       mediaHTML = `<img src="media/${m}" alt-text="${artist} img ${m}" class="img">`
     }
