@@ -12,7 +12,7 @@
     "description": "Description",
     "credit": "Credit",
     "media": ["1.jpg", "2.jpg", "3.jpg", "4.mp4", "5.jpg", "6.jpg", "7.jpg", "8.jpg"],
-    "include": true
+    "include": false
   },
   {
     "artist": "Alyssa Cheng",
@@ -26,7 +26,7 @@
     "statement": "Alyssa Cheng is a multidisciplinary artist who works on fashion and materials. In the project, <i>Reconstruction</i>, she explores how fashion could be combined with technologies to develop a new perspective. By using AI technology to flatten the 3D garments, the garments are transformed into changing pixels and into the language of images. This process turns the produced garments back into the designer's computer and becomes a source of inspiration for designing.",
     "description": "There are 2354 images in the dataset. All images in the database are from all Alexander McQueen runway shows from 1995 to 2010. This project uses StyleGAN2-ADA as Machine Learning model, and it is trained in Google Colab.",
     "credit": "Vogue Runway for images involved in the creation of the dataset, Derrick Schultz for the creation of the StyleGAN2-ADA-PyTorch repo/notebook",
-    "media": ["1.jpg", "2.jpg", "3.jpg", "4.mp4", "5.jpg", "6.jpg", "7.jpg", "8.jpg"],
+    "media": ["alyssa-cheng1.mp4"],
     "include": true
   },
   {
