@@ -28,10 +28,10 @@ let URLs = `<a href="${directory}" class="topnav__dropdown-menu-item">Home</a>`;
 for(a of artistFolders) {
   let tempURL = ``;
   if(a == currentFolder) {
-    tempURL = `<a href="." class="topnav__dropdown-menu-item current-page">${currentArtist}</a>`
+    tempURL = `<a href="." class="topnav__dropdown-menu-item current-page artist-menu-item">${currentArtist}</a>`
   } else {
     let fullName = a.split("-")[0] + " " + a.split("-")[1];
-    tempURL = `<a href="${directory}/${a}" class="topnav__dropdown-menu-item">${fullName}</a>`
+    tempURL = `<a href="${directory}/${a}" class="topnav__dropdown-menu-item artist-menu-item">${fullName}</a>`
   }
   URLs+=tempURL;
 }
@@ -41,7 +41,7 @@ let containerTopnav =
 ` <header class="topnav">
     <div class="topnav__left">
       <a href=".." class="topnav__left-site-title">
-          <span class="site-title__title">Intro to Computer Vision and Machine Learning</span>
+          <span class="site-title__title">Intro to Computer Vision</span>
           <span class="site-title__semester">Spring 2021 | Art and Technology Studies, SAIC</span>
       </a>
     </div>
