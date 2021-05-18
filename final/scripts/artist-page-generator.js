@@ -4,7 +4,6 @@ function loadContent() {
     
     const artist = $("title").text();
     // const year = title_text.substring(title_text.length-4, title_text.length)
-
     const req = new XMLHttpRequest();
     req.open("GET", '../scripts/artist-info.json', true);
     req.send();
@@ -24,7 +23,7 @@ function loadContent() {
 
               ///// SOCIALS /////
               let socialsHTML = `<div class="socials">`
-
+              
               if(d.instagram) {
                 const INSTAGRAM_URL = d.instagram;
                 let instagramSplit = INSTAGRAM_URL.split("/");
@@ -44,7 +43,14 @@ function loadContent() {
               if(d.website) {
                 const WEBSITE_URL = d.website;
                 let websiteSplit = WEBSITE_URL.split("/");
-                const WEBSITE_URL_SHORT = websiteSplit[websiteSplit.length-2];
+                let shortURL = ""
+                for(let i = 2; i < websiteSplit.length-1; i++) {
+                  shortURL+=websiteSplit[i]
+                  if(i < websiteSplit.length-2) {
+                    shortURL+="/";
+                  }
+                }
+                const WEBSITE_URL_SHORT = shortURL;
                 console.log(WEBSITE_URL)
                 let websiteHTML = `<a href="${WEBSITE_URL}" target="_blank" class="website">${WEBSITE_URL_SHORT}</a>`
                 socialsHTML+=websiteHTML;
@@ -78,8 +84,26 @@ function loadContent() {
                 $('.content-container').append(statementHTML);
               }
 
+              if(d.preContent) {
+                const PRECONTENT = d.preContent;
+                let preContentHTML = `<div class="pre-content">${PRECONTENT}</div>`
+                $('.content-container').append(preContentHTML);
+              }
+
+              if(d.warning) {
+                const WARNING = d.warning;
+                let warningHTML = `<p class="warning"><span class="warning-label">Warning:</span> ${WARNING}</p>`
+                $('.content-container').append(warningHTML);
+              }
+              
               const MEDIA = d.media;
               addMedia(MEDIA, ARTIST);
+
+              if(d.postContent) {
+                const POSTCONTENT = d.postContent;
+                let postContentHTML = `<div class="post-content">${POSTCONTENT}</div>`
+                $('.content-container').append(postContentHTML);
+              }
 
               if(d.description) {
                 const DESCRIPTION = d.description;

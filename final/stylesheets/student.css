@@ -10,6 +10,10 @@
   margin: 1em auto;
 }
 
+p {
+  line-height: 1.35em;
+}
+
 .content-container {
   font-size: 1.25rem;
 }
@@ -58,12 +62,34 @@
 
 .materials {
   font-size: 1rem;
-  max-width: 40ch;
+  max-width: 50ch;
 }
 
 .statement {
   margin: 2rem 0;
 }
+
+.pre-content {
+  margin: 1em 0;
+}
+
+.pre-content a {
+  color: var(--color-fg);
+}
+
+.pre-content a:hover {
+  color: var(--color-acc);
+}
+
+.warning {
+  font-size: .75em;
+  margin-top: 1rem;
+}
+
+.warning-label {
+  font-weight: 600;
+}
+
 
 .description-label {
   font-weight: 600;

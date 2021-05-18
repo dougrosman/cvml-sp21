@@ -3,7 +3,6 @@ let currentURL = window.location.href.split("/");
 let currentFolder = currentURL[currentURL.length-2];
 
 let artistFolders = [
-  "test-student",
   "alyssa-cheng",
   "benjamin-glass",
   "boomer-scripps",
@@ -11,13 +10,11 @@ let artistFolders = [
   "henry-boeschenstein",
   "jieun-hong",
   "keming-li",
-  "kio-zhu",
   "li-zhu",
   "max-weiss",
   "sean-cheng",
   "victoria-yang"
 ]
-
 
 let directory = "";
 if(currentArtist == "CVML SP21 Finals") {
