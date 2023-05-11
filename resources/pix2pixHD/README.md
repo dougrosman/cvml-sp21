@@ -1,5 +1,13 @@
 # Pix2pixHD
 
+## Note (Update 5/11/2023)
+
+I haven't tested this notebook since Google Colab recently updated its default Python Version to 3.10 in April 2023 (https://medium.com/google-colab/colab-updated-to-python-3-10-27eb02daa162). **There is a good chance the version of PyTorch required is no longer compatible**. Feel free to try the notebook though.
+
+
+---
+
+
 ## Start Here
 Doug's [forked pix2pixHD repo](https://github.com/dougrosman/pix2pixHD) has the link to the Colab Notebook at the top of the README.
 Alternatively, you [can click here to download the notebook](https://drive.google.com/file/d/1IyyDAm6h_SCOUbG-cWxMhLLt9FHph3AD/view?usp=sharing), and then upload it to your own Google Drive.
